@@ -1,0 +1,154 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.navmenu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 900px;
+    height: 15px;
+    margin: 40px auto 40px auto;
+    font-family: verdana;
+}
+
+#div1 {}
+
+.sibme {
+    height: 50px;
+    width: 100px;
+}
+
+#div3 {}
+
+.navmenu .navitems ul {
+    list-style: none;
+}
+
+.navmenu .navitems ul li {
+    font-family: Verdana;
+    display: inline;
+    padding: 0 2px 0 2px;
+}
+
+.horizontal {
+    display: inline;
+}
+
+#item1 {
+    margin-right: 100px;
+}
+
+#item8 {
+    margin-left: 30px;
+}
+
+#header {
+    width: 900px;
+    height: 400px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+#header h2,
+#header p {
+    text-align: center;
+    font-family: verdana;
+    color: aliceblue;
+}
+
+#laptopholder {
+    height: 200px;
+}
+
+#laptop {
+    position: relative;
+    top: -260px;
+    left: 400px;
+}
+
+.buttonholder {
+    text-align: center;
+    font-family: verdana;
+}
+
+#subcontent {
+    width: 900px;
+    margin: 0 auto;
+}
+
+#subcontent h2,
+#subcontent p {
+    text-align: center;
+    font-family: verdana;
+}
+
+#mycards {
+    width: 900px;
+    height: 300px;
+    font-family: verdana;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto 110px auto;
+}
+
+.cardData {
+    max-width: 200px;
+    border-style: none;
+    margin: 0 10px 0 10px;
+}
+
+.hex {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+#mycards2 {
+    width: 900px;
+    height: 300px;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    padding: 50px;
+    border-top-style: solid;
+    border-bottom-style: solid;
+    border-color: silver;
+    font-family: verdana;
+}
+
+.cards2 {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+#footer {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    font-family: verdana;
+    justify-content: space-between;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.footerClass {
+    text-align: center;
+}
+
+#footer ul {
+    text-align: center;
+}
+
+#footer ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 10px 0 10px;
+}
